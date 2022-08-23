@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  padding: 0 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(218, 23%, 16%);
+}
+
+.main-card {
+  min-height: 300px;
+  border-radius: 10px;
+  background-color: hsl(217, 19%, 24%);
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+#advice_button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  position: absolute;
+  top: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-out;
+}
+
+#advice_button:hover {
+  box-shadow: 4px 4px 16px hsl(150, 100%, 66%),
+    -4px -4px 16px hsl(150, 100%, 66%);
+  cursor: pointer;
+}
+
+#advice_button img {
+  max-width: 100%;
+}
+
+.advice-title {
+  font-weight: 800;
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 800;
+  color: hsl(193, 38%, 86%);
+  text-align: center;
+}
+
+.advice-text-con {
+  width: 80%;
+  margin-bottom: 1.5rem;
+}
+
+.divider {
+  margin-bottom: 1rem;
+}
